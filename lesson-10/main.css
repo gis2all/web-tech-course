@@ -1,0 +1,24 @@
+
+/* Element 链接style */
+body {
+    background-color: #cc99ff;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* Class 链接style */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/* ID 链接style (ID需唯一, 一般不建议) */
+#circle {
+    color: darkred;
+    font-size: 40px;
+}
