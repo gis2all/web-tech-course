@@ -1,0 +1,26 @@
+body {
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Elements & Class & ID 组合使用一个样式 */
+h1, h2, h3 , .class_h4, #id_h5 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+.border-img {
+    border: 3px dashed red;
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+ul > li {
+    color: yellow;
+}
