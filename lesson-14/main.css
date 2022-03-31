@@ -1,0 +1,30 @@
+body {
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.border-img {
+    border: 3px dashed red;
+}
+
+/*所有的ul的继承者*/
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+/* 所有ul的直接继承者, 覆盖前面设置 */
+ul > li {
+    color: yellow;
+}
