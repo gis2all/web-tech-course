@@ -1,0 +1,14 @@
+.container {
+    background: linear-gradient(to left,#4dc3ff,#cceeff); /* 渐变色 */
+    box-shadow: 3px 5px 3px black;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    color: rgb(0, 204, 255); /* RGB颜色 */
+    text-shadow: 1px 1px 3px darkblue; /* 阴影 */
+}
