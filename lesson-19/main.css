@@ -1,0 +1,24 @@
+html {
+    background-color: gray;
+    /* text-align: center; */
+    /*全部控件居中*/
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 1;
+
+    /* 使用 display 和 margin组合实现图片居中 */
+    display: block;
+    margin: auto;
+}
+
+.border-img {
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid darkcyan;
+    padding: 5px;
+}
